@@ -5,10 +5,6 @@ import {
   AudioWaveform,
   BookOpen,
   Command,
-  Frame,
-  GalleryVerticalEnd,
-  Map,
-  PieChart,
   Wallet,
   Image,
   Newspaper,
@@ -55,7 +51,6 @@ const data = {
       title: "Dashboard",
       url: "/",
       icon: BarChart,
-      isActive: true,
     },
     {
       title: "Bookings",
@@ -87,24 +82,7 @@ const data = {
       url: "/team",
       icon: Users,
     },
-  ],
-  projects: [
-    {
-      name: "Design Engineering",
-      url: "#",
-      icon: Frame,
-    },
-    {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
-    },
-    {
-      name: "Travel",
-      url: "#",
-      icon: Map,
-    },
-  ],
+  ]
 };
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
